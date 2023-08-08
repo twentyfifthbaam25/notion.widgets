@@ -1,0 +1,73 @@
+<style>
+@font-face {
+font-family:'cupcake';
+src: url(https://dl.dropbox.com/s/dayh8onbivwmqq7/Cherry%20Cupcake%20Personal%20Use.ttf);
+}
+  .bouncyyy {
+  font-family:'cupcake';
+    font-size: 4em;
+    z-index: 99;
+    color: white;    
+    filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px 1px 0 black) drop-shadow(0 -1px 0 black) drop-shadow(2px 0 black);
+    animation: bounce 2s infinite;
+    animation-timing-function: cubic-bezier(0.25, 0.85, 0.4, 1) width:auto;
+    ;
+  }
+ 
+  .letterone {
+   
+    animation-delay: 0s;
+    display: inline-block;
+  }
+ 
+  .lettertwo {
+   
+    animation-delay: 0.1s;
+    display: inline-block;
+  }
+ 
+  .letterthree {
+    
+    animation-delay: 0.15s;
+    display: inline-block;
+  }
+ 
+  .letterfour {
+    
+    animation-delay: 0.2s;
+    display: inline-block;
+  }
+ 
+  @keyframes bounce {
+    0% {
+      transform: scale(1, 1) translateY(0);
+    }
+ 
+    10% {
+      transform: scale(1.1, .9) translateY(0);
+ 
+    }
+ 
+    30% {
+      transform: scale(.9, 1.1) translateY(-30px);
+      transform: rotate(-10deg);
+    }
+ 
+    50% {
+      transform: scale(1.05, .95) translateY(0);
+      transform: rotate(10deg);
+    }
+ 
+    60% {
+      transform: scale(1, 1) translateY(-4px);
+      transform: rotate(-10deg);
+    }
+ 
+    100% {
+      transform: scale(1, 1) translateY(0);
+    }
+  }
+ 
+</style>
+ 
+<p class="bouncyyy letterone">u</p><p class="bouncyyy lettertwo">k</p><p class="bouncyyy letterthree">a</p><p class="bouncyyy letterfour">!</p>
